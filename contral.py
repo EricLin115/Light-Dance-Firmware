@@ -45,7 +45,7 @@ class DeviceState:
         self.status = "Disconnected"  # 初始狀態為未連線
         self.task_status = "Waiting"  # 初始任務狀態為等待中
 
-# 按鈕類
+# 按鈕
 class Button:
     def __init__(self, x, y, width, height, color, text, text_color, action):
         self.rect = pygame.Rect(x, y, width, height)
